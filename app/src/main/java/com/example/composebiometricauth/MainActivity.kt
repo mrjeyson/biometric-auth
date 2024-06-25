@@ -27,7 +27,6 @@ import com.example.composebiometricauth.ui.theme.ComposeBiometricAuthTheme
 
 class MainActivity : AppCompatActivity() {
 
-
     private val promptManager by lazy {
         BiometricPromptManager(this)
     }
