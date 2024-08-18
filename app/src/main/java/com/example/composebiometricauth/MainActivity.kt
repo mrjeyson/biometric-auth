@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
     private val promptManager by lazy {
         BiometricPromptManager(this)
     }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
