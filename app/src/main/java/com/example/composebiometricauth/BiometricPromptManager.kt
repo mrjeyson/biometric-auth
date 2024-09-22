@@ -13,7 +13,6 @@ import kotlinx.coroutines.flow.receiveAsFlow
 class BiometricPromptManager(
     private val activity: AppCompatActivity
 ) {
-
     private val resultChannel = Channel<BiometricResult>()
     val promptResults = resultChannel.receiveAsFlow()
 
