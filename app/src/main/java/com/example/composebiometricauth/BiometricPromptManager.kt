@@ -34,7 +34,6 @@ class BiometricPromptManager(
 
 
 
-
     private val resultChannel = Channel<BiometricResult>()
     val promptResults = resultChannel.receiveAsFlow()
 
